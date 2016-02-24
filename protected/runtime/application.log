@@ -7358,3 +7358,1810 @@ REQUEST_URI=/site/js/jquery.js
 HTTP_REFERER=http://192.168.8.110:9030/site/index
 >>>>>>> c9f71650e0483c0940e5db04a5c5df8836ed9b15
 ---
+2015/07/16 10:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/UD/reset.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/UD/reset.cs...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/UD/reset.css
+HTTP_REFERER=http://192.168.8.109:9032/
+---
+2015/07/16 10:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/UD/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/UD/style.cs...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/UD/style.css
+HTTP_REFERER=http://192.168.8.109:9032/
+---
+2015/07/16 10:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/07/17 10:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/UD/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/UD/style.cs...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/UD/style.css
+HTTP_REFERER=http://192.168.8.108:9032/
+---
+2015/07/17 10:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/UD/reset.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/UD/reset.cs...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/UD/reset.css
+HTTP_REFERER=http://192.168.8.108:9032/
+---
+2015/07/17 10:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/07/17 10:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/UD/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/UD/style.cs...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/UD/style.css
+HTTP_REFERER=http://192.168.8.108:9032/
+---
+2015/07/17 10:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/UD/reset.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/UD/reset.cs...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/UD/reset.css
+HTTP_REFERER=http://192.168.8.108:9032/
+---
+2015/07/17 10:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/images/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/heng...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/
+---
+2015/07/17 10:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/images/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/heng...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/
+---
+2015/07/17 10:57:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/images/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/heng...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 10:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/images/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/heng...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 10:58:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/images/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/heng...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 10:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/images/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/heng...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 10:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/images/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/heng...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 11:00:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/images/spring/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/imag...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/images/spring/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 11:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/images/spring/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/imag...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/images/spring/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 11:00:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/images/spring/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/imag...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/images/spring/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 11:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/images/spring/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/imag...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/images/spring/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 11:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/images/spring/heng.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/imag...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/images/spring/heng.png
+HTTP_REFERER=http://192.168.8.108:9032/css/spring/main.css
+---
+2015/07/17 16:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "index.html"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.html
+---
+2015/07/17 16:36:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/logo_black.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/logo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/logo_black.png
+HTTP_REFERER=http://192.168.8.108:9032/site
+---
+2015/07/17 16:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/store_datail.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/s...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/store_datail.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site
+---
+2015/07/17 16:56:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/store_datail.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/s...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/store_datail.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site
+---
+2015/07/17 16:56:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/store/store_datail.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/s...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/store/store_datail.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site
+---
+2015/07/17 16:56:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/store/store_datail.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/s...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/store/store_datail.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site
+---
+2015/07/17 16:57:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/store/store_datail.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/s...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/store/store_datail.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site
+---
+2015/07/17 17:40:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in /vagrant/protected/framework/web/CController.php:336
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/store
+---
+2015/07/17 17:44:15 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "index".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(12): CController->render('index')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/
+---
+2015/07/17 18:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/flagship.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/f...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/flagship.png
+HTTP_REFERER=http://192.168.8.108:9032/site/flagship
+---
+2015/07/17 18:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "site" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('site')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('site')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/site
+---
+2015/07/17 18:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/jewelry/jewelry.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/j...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/jewelry/jewelry.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site/brand
+---
+2015/07/17 19:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/D_title.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/D_title.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site/brand
+---
+2015/07/17 19:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/D_title3.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/D_title3.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site/brand
+---
+2015/07/17 19:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/D_title4.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/D_title4.jpg
+HTTP_REFERER=http://192.168.8.108:9032/site/brand
+---
+2015/07/20 10:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z_title1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z_title1.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/07/20 10:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z_title1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z_title1.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z_title1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z_title1.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z_title1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z_title1.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 10:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/brand/Z.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/b...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/brand/Z.jpg
+HTTP_REFERER=http://192.168.8.115:9032/site/brand
+---
+2015/07/20 11:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/choose_bg.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/c...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/choose_bg.png
+HTTP_REFERER=http://192.168.8.115:9032/css/spring/main.css
+---
+2015/07/20 11:59:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/personal/method.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/p...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/personal/method.png
+HTTP_REFERER=http://192.168.8.115:9032/site/personal
+---
+2015/07/20 14:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/new_arrow.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/new_...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/new_arrow.png
+HTTP_REFERER=http://192.168.8.115:9032/css/spring/main.css
+---
+2015/07/20 14:05:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "css/spring/new_arrow.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('css/spring/new_...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/spring/new_arrow.png
+HTTP_REFERER=http://192.168.8.115:9032/css/spring/main.css
+---
+2015/07/20 17:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/personal/type62.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/p...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/personal/type62.png
+HTTP_REFERER=http://192.168.8.115:9032/site/personal
+---
+2015/07/21 10:14:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/07/21 10:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/tour/login.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/t...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/tour/login.png
+HTTP_REFERER=http://192.168.8.109:9032/site/login
+---
+2015/07/21 10:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/tour/login.png"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/t...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/tour/login.png
+HTTP_REFERER=http://192.168.8.109:9032/site/login
+---
+2015/07/21 15:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/tour/bg.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/t...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/tour/bg.jpg
+HTTP_REFERER=http://192.168.8.109:9032/site/login
+---
+2015/07/21 15:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/spring/tour/bg.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('images/spring/t...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/spring/tour/bg.jpg
+HTTP_REFERER=http://192.168.8.109:9032/site/login
+---
+<<<<<<< HEAD
+2015/07/21 17:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+=======
+2015/10/10 10:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+>>>>>>> 4057569115500a882f5a94deb9bff4f9aeb6b7b9
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+<<<<<<< HEAD
+HTTP_REFERER=http://192.168.8.108:9032/site/brand
+---
+2015/07/27 14:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://127.0.0.1:9032/
+=======
+HTTP_REFERER=http://192.168.8.102:9032/
+---
+2015/10/10 10:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "login"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('login')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2015/10/10 10:28:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in /vagrant/protected/framework/web/CController.php:336
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/store
+---
+2015/10/10 12:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:35:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:35:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:35:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:35:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:38:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 12:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 13:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/footer.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/foo...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/footer.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/flagship
+---
+2015/10/10 14:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/logo.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/log...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/logo.jpg
+HTTP_REFERER=http://192.168.8.102:9032/site/login
+>>>>>>> 4057569115500a882f5a94deb9bff4f9aeb6b7b9
+---
+<<<<<<< HEAD
+2015/10/13 17:15:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+=======
+2015/10/16 11:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+>>>>>>> 38c80ebbc9181b4b47d19db9f62283706db2336c
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+<<<<<<< HEAD
+HTTP_REFERER=http://192.168.8.104:9032/
+---
+2015/10/13 17:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "login"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('login')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2015/10/19 11:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://127.0.0.1:9032/
+---
+2015/10/19 11:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "api/brand"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/brand')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/brand
+---
+=======
+HTTP_REFERER=http://127.0.0.1:9032/
+---
+2015/10/16 16:03:13 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:69)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (69)
+in /vagrant/index.php (19)
+2015/10/16 16:04:02 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:68)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (68)
+in /vagrant/index.php (19)
+2015/10/16 16:04:59 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:70)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (70)
+in /vagrant/index.php (19)
+2015/10/16 16:05:31 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:70)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (70)
+in /vagrant/index.php (19)
+2015/10/16 16:05:54 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:70)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (70)
+in /vagrant/index.php (19)
+2015/10/16 16:07:10 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:72)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (72)
+in /vagrant/index.php (19)
+2015/10/16 16:07:46 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:72)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (72)
+in /vagrant/index.php (19)
+2015/10/16 16:07:48 [error] [php] Only variables should be passed by reference (/vagrant/protected/controllers/SiteController.php:72)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): SiteController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/site/import
+in /vagrant/protected/controllers/SiteController.php (72)
+in /vagrant/index.php (19)
+2015/10/16 16:37:35 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "createCommand".' in /vagrant/protected/framework/base/CComponent.php:265
+Stack trace:
+#0 /vagrant/protected/controllers/ApiController.php(13): CComponent->__call('createCommand', Array)
+#1 /vagrant/protected/controllers/ApiController.php(13): CWebApplication->createCommand('select * from s...')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): ApiController->actionBrand()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('brand')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/brand')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/brand
+---
+2015/10/16 17:18:53 [error] [php] json_decode() expects parameter 1 to be string, array given (/vagrant/protected/controllers/ApiController.php:25)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#2 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/brand
+in /vagrant/protected/controllers/ApiController.php (25)
+in /vagrant/index.php (19)
+>>>>>>> 38c80ebbc9181b4b47d19db9f62283706db2336c
+2015/10/28 14:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "check" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('check')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('check')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/check')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/check
+HTTP_REFERER=http://192.168.8.103:9032/site/login
+---
+2015/10/28 14:37:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "submit" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('submit')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('submit')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/submit')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/submit
+HTTP_REFERER=http://192.168.8.103:9032/site/personal
+---
+2015/10/28 14:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "submit" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('submit')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('submit')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/submit')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/submit
+HTTP_REFERER=http://192.168.8.103:9032/site/personal
+---
+2015/10/28 15:04:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "check" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('check')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('check')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/check')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/check
+HTTP_REFERER=http://192.168.8.103:9032/site/login
+---
+2015/10/29 10:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.101:9032/site/login
+---
+2015/10/29 10:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.101:9032/
+---
+2015/10/29 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.101:9032/
+---
+2015/10/29 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.101:9032/
+---
+2015/10/29 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.101:9032/
+---
+2015/10/30 12:02:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.108:9032/site/personal
+---
+2016/01/20 11:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.111:9032/
+---
+2016/01/20 11:29:53 [error] [php] Undefined variable: store (/vagrant/protected/controllers/ApiController.php:14)
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(286): ApiController->runAction()
+#1 /vagrant/protected/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /vagrant/protected/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /vagrant/index.php(19): CWebApplication->run()
+REQUEST_URI=/api/brand?store=null
+in /vagrant/protected/controllers/ApiController.php (14)
+in /vagrant/index.php (19)
+2016/01/20 11:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "check" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('check')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('check')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/check')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/check
+HTTP_REFERER=http://192.168.8.111:9032/site/login
+---
+2016/01/20 11:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "check" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('check')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('check')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/check')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/check
+HTTP_REFERER=http://192.168.8.111:9032/site/login
+---
+2016/01/20 11:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "check" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('check')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('check')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/check')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/check
+HTTP_REFERER=http://192.168.8.111:9032/site/login
+---
+2016/01/20 11:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "check" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('check')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('check')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/check')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/check
+HTTP_REFERER=http://192.168.8.111:9032/site/login
+---
+2016/01/20 11:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "check" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('check')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('check')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('api/check')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/check
+HTTP_REFERER=http://192.168.8.111:9032/site/login
+---
+2016/02/19 11:14:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 11:15:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.100:9032/site/flagship
+---
+2016/02/19 11:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site/flagship"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/flagship')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/flagship
+---
+2016/02/19 11:18:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'printemps_b2b'' in /vagrant/protected/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /vagrant/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /vagrant/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /vagrant/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /vagrant/protected/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /vagrant/protected/controllers/SiteController.php(42): CModule->__get('db')
+#5 [internal function]: SiteController->actionStore('1')
+#6 /vagrant/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#7 /vagrant/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#8 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#12 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#13 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /vagrant/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/site/store?id=1
+---
+2016/02/19 11:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site/store"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/store?id=1
+---
+2016/02/19 11:19:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in /vagrant/protected/framework/web/CController.php:336
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/store
+---
+2016/02/19 11:19:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in /vagrant/protected/framework/web/CController.php:336
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/store
+---
+2016/02/19 11:19:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in /vagrant/protected/framework/web/CController.php:336
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#4 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#5 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /vagrant/index.php(19): CApplication->run()
+#7 {main}
+REQUEST_URI=/site/store
+---
+2016/02/19 11:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "site/store"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/store
+---
+2016/02/19 11:47:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/store/1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/sto...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/store/1.jpg
+HTTP_REFERER=http://192.168.8.100:9032/site/beauty
+---
+2016/02/19 11:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/store/1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/sto...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/store/1.jpg
+HTTP_REFERER=http://192.168.8.100:9032/site/beauty
+---
+2016/02/19 11:48:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/store/1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/sto...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/store/1.jpg
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 11:48:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/store/1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/sto...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/store/1.jpg
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 11:53:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/store/1.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/sto...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/store/1.jpg
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 11:57:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 11:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 12:04:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 12:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 12:07:21 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "store".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('store', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(63): CController->render('store')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionStore()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/store
+---
+2016/02/19 12:10:27 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "store".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('store', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(63): CController->render('store')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionStore()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/store
+---
+2016/02/19 13:58:33 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "store".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('store', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(63): CController->render('store')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionStore()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/store
+---
+2016/02/19 14:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:01:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:02:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:03:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:03:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:05:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/taxrefund
+---
+2016/02/19 14:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/taxrefund
+---
+2016/02/19 14:57:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/store
+---
+2016/02/19 14:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/taxrefund
+---
+2016/02/19 15:00:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/taxrefund
+---
+2016/02/19 15:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/taxrefund
+---
+2016/02/19 15:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/taxrefund
+---
+2016/02/19 15:25:36 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "pushArticles/otherservice".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('pushArticles/ot...', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(44): CController->render('pushArticles/ot...')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionOtherservice()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('otherservice')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/otherservi...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/otherservice
+---
+2016/02/19 15:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/otherservice/11_otherservices.jpeg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/otherservice/11_otherservices.jpeg
+HTTP_REFERER=http://192.168.8.100:9032/site/otherservice
+---
+2016/02/19 15:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/otherservice/11_otherservices.jpeg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/otherservice/11_otherservices.jpeg
+HTTP_REFERER=http://192.168.8.100:9032/site/otherservice
+---
+2016/02/19 15:25:56 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "pushArticles/otherservice".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('pushArticles/ot...', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(44): CController->render('pushArticles/ot...')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionOtherservice()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('otherservice')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/otherservi...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/otherservice
+---
+2016/02/19 15:27:30 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "pushArticles/otherservice".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('pushArticles/ot...', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(44): CController->render('pushArticles/ot...')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionOtherservice()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('otherservice')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/otherservi...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/otherservice
+---
+2016/02/19 15:27:44 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "pushArticles/otherservice".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('pushArticles/ot...', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(44): CController->render('pushArticles/ot...')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionOtherservice()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('otherservice')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/otherservi...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/otherservice
+---
+2016/02/19 15:28:05 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "pushArticles/otherservice".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('pushArticles/ot...', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(44): CController->render('pushArticles/ot...')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionOtherservice()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('otherservice')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/otherservi...')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/otherservice
+---
+2016/02/19 15:42:05 [error] [exception.CException] exception 'CException' with message 'SiteController 无法找到请求的视图 "pushArticles/restaurant".' in /vagrant/protected/framework/web/CController.php:878
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(782): CController->renderPartial('pushArticles/re...', NULL, true)
+#1 /vagrant/protected/controllers/SiteController.php(48): CController->render('pushArticles/re...')
+#2 /vagrant/protected/framework/web/actions/CInlineAction.php(49): SiteController->actionRestaurant()
+#3 /vagrant/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('restaurant')
+#7 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/restaurant')
+#8 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /vagrant/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/restaurant
+---
+2016/02/19 15:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/taxrefund
+---
+2016/02/19 15:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/css/style.css"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/css/styl...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/css/style.css
+HTTP_REFERER=http://192.168.8.100:9032/site/restaurant
+---
+2016/02/19 16:11:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/servicepremium/PremiumServices.jpeg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/servicepremium/PremiumServices.jpeg
+HTTP_REFERER=http://192.168.8.100:9032/site/servicepremium
+---
+2016/02/19 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/servicepremium/VIPService.jpeg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/servicepremium/VIPService.jpeg
+HTTP_REFERER=http://192.168.8.100:9032/site/servicepremium
+---
+2016/02/19 16:13:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/servicepremium/PersonalShoppingservice.jpeg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/servicepremium/PersonalShoppingservice.jpeg
+HTTP_REFERER=http://192.168.8.100:9032/site/servicepremium
+---
+2016/02/19 16:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/otherservice/otherservices.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/otherservice/otherservices.jpg
+HTTP_REFERER=http://192.168.8.100:9032/site/otherservice
+---
+2016/02/19 16:37:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/otherservice/otherservices.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/otherservice/otherservices.jpg
+HTTP_REFERER=http://192.168.8.100:9032/site/otherservice
+---
+2016/02/19 16:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "vstyle/imgs/pushArticles/otherservice/otherservices.jpg"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('vstyle/imgs/pus...')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/vstyle/imgs/pushArticles/otherservice/otherservices.jpg
+---
+2016/02/22 11:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /vagrant/protected/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /vagrant/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://192.168.8.104:9032/
+---
+2016/02/22 11:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "instoreservices" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('instoreservices')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('instoreservices')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/instoreser...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/instoreservices
+---
+2016/02/22 11:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "instoreservices" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('instoreservices')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('instoreservices')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/instoreser...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/instoreservices
+---
+2016/02/22 11:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "instoreservices" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('instoreservices')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('instoreservices')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/instoreser...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/instoreservices
+---
+2016/02/22 11:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "instoreservices" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('instoreservices')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('instoreservices')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/instoreser...')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/instoreservices
+---
+2016/02/22 11:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "taxrefund2" 动作.' in /vagrant/protected/framework/web/CController.php:483
+Stack trace:
+#0 /vagrant/protected/framework/web/CController.php(270): CController->missingAction('taxrefund2')
+#1 /vagrant/protected/framework/web/CWebApplication.php(282): CController->run('taxrefund2')
+#2 /vagrant/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/taxrefund2')
+#3 /vagrant/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /vagrant/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/taxrefund2
+---
