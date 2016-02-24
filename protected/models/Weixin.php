@@ -2,9 +2,9 @@
 
 class Weixin{
 
-	private $_TOKEN = 'printempsb2b';
-	private $_appid = 'wx5724db07982c3896';
-	private $_secret = 'd9e9ae55f59bb02fa1b71146520cda03';
+	private $_TOKEN = 'printempsb2c';
+	private $_appid = 'wx57239fe7eb5cd611';
+	private $_secret = '8611f6eed4f6c1fc2370f0ac24c359bd';
 	private $_eventKey = array('A1','B1','C1','C2','B2','B4','A2');
 	private $_db = null;
 	private $_fromUsername = null;
