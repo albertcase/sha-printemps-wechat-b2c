@@ -154,7 +154,7 @@ class Weixin{
             		for($i=0;$i<count($rs);$i++){
             			$meter = $this->getDistance($lat,$lng,$rs[$i]['lat'],$rs[$i]['lng']);
             			$meters = "(距离约" . $meter ."米)";
-            			$datas[$meter] = array('title'=>$rs[$i]['name'].$meters,'description'=>$rs[$i]['name'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/vstyle/imgs/store/'.$rs[$i]['id'].'.jpg'.,'url'=>Yii::app()->request->hostInfo.'/site/store?id='.$rs[$i]['id']); 
+            			$datas[$meter] = array('title'=>$rs[$i]['name'].$meters,'description'=>$rs[$i]['name'],'picUrl'=>Yii::app()->request->hostInfo.'/'.Yii::app()->request->baseUrl.'/vstyle/imgs/store/'.$rs[$i]['id'].'.jpg','url'=>Yii::app()->request->hostInfo.'/site/store?id='.$rs[$i]['id']); 
             		}
 					ksort($datas);
 					$i=0;
