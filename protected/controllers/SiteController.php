@@ -36,6 +36,14 @@ class SiteController extends Controller
 		$this->render('login');
 	}
 
+	public function actionSitmap(){
+            $this->render('sitmap');
+    }
+
+    public function actionAbout(){
+            $this->render('about');
+    }
+
 	public function actionBeauty(){
     		$this->render('pushArticles/beauty');
     }
@@ -64,6 +72,9 @@ class SiteController extends Controller
         		$this->render('pushArticles/store2/instoreservice');
     }
 
+    public function actionQuestion(){
+                    $this->render('pushArticles/question');
+    }
 
 	public function actionStore($id){
 		$sql = "select * from same_store where id = ".intval($id);
