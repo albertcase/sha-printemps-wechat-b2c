@@ -112,7 +112,18 @@ class ApiController extends Controller
 			echo json_encode(array('code' => '2', 'msg' => '验证失败'));
 			Yii::app()->end();
 		}
-		echo json_encode(array('code' => '1', 'msg' => '验证通过'));
+		$sql = "insert into same_order set sex=:sex,firstname=:firstname,secondname=:secondname,ddata=:ddata,dtime=:dtime,contacttype=:contacttype,contact=:contact,product=:product";
+		$command = Yii::app()->db->createCommand($sql);
+		$command->bindParam(':sex',$sex,PDO::PARAM_STR);
+		$command->bindParam(':firstname',$firstname,PDO::PARAM_STR);
+		$command->bindParam(':secondname',$secondname,PDO::PARAM_STR);
+		$command->bindParam(':ddata',$ddata,PDO::PARAM_STR);
+		$command->bindParam(':dtime',$dtime,PDO::PARAM_STR);
+		$command->bindParam(':contacttype',$contacttype,PDO::PARAM_STR);
+		$command->bindParam(':contact',$contact,PDO::PARAM_STR);
+		$command->bindParam(':product',$product,PDO::PARAM_STR);
+		$command->execute();
+		echo json_encode(array('code' => '1', 'msg' => '提交成功'));
 		Yii::app()->end();
 	}
 
