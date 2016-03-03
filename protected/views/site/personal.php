@@ -100,7 +100,8 @@
 	    }).done(function(data){
 
 	    	if(data.code == 1){
-	    		alert("提交成功");
+	    		window.location.href = "/site/congratulation"; 
+	    		//alert("提交成功");
 	    	}else{
 	    		alert("很抱歉，提交失败，请刷新之后重新提交");
 	    	}
@@ -114,7 +115,7 @@
 		var _surname = $("input[name='surname']").val();
 		var _name = $("input[name='name']").val();
 		var _date = $("input[name='date']").val();
-		var _hour = $("input[name='time']").val();
+		var _hour = $("input[name='hour']").val();
 		var _contact = $("select[name='contact']").val();
 		var _contactVal = $("input[name='contactVal']").val();
 		var _typeArr = [];
@@ -141,7 +142,7 @@
 		}else if(_typeArr == ""){
 			alert("请选择您寻找的产品类型！");
 		}else{
-
+			
 			formInterface(_gender, _surname, _name, _date, _hour, _contact, _contactVal, _typeArr, _brandVal);
 			//alert("提交成功！");
 		}
