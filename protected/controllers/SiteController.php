@@ -198,6 +198,24 @@ public function actionLogout(){
 	Yii::app()->end();
 }
 
+public function actionSendemail(){
+	$a = new swiftmail();
+	$data = array(
+		'sex' => 'sex1',
+		'firstname' => 'firstname',
+		'secondname' => 'secondname',
+		'ddata' => 'ddata',
+		'dtime' => 'dtime',
+		'contacttype' => 'contacttype',
+		'contact' => 'contact',
+		'product' => 'product',
+		'brandname' => 'brandname',
+	);
+	$a->pushmail($data);
+	$a->send();
+	Yii::app()->end();
+}
+
 	/**
 	 * This is the action to handle external exceptions.
 	 */

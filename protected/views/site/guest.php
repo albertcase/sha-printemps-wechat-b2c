@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>阿莱亚预约管理</title>
+    <title>法国春天百货登陆</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" >
     <meta name="msapplication-tap-highlight" content="no">
     <link rel="stylesheet" type="text/css" href="/html/css/guest.css"/>
