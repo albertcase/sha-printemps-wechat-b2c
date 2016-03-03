@@ -16,22 +16,22 @@
 
 </section>
 </article>
-<footer>
+<!-- <footer>
 	<div class="con">
-		<a href="javascript:;" id="tel"> 
+		<a href="javascript:;" id="tel">
 			<img src="/vstyle/imgs/tel.png" />
-			<u>+33 142825000</u> 
+			<u>+33 142825000</u>
 		</a>
 		<em>联系方式</em>
 	</div>
 	<img src="/vstyle/imgs/footer.jpg" width="100%" class="opacity" />
-</footer>
+</footer> -->
 
 <script type="text/javascript">
 
-var telElement = document.getElementById("tel");
-var telU_Element = telElement.getElementsByTagName("u")[0];
-var tel = telU_Element.innerHTML.replace(/\s/ig,'');
-telElement.setAttribute("href","tel:" + tel);
+//var telElement = document.getElementById("tel");
+//var telU_Element = telElement.getElementsByTagName("u")[0];
+//var tel = telU_Element.innerHTML.replace(/\s/ig,'');
+//telElement.setAttribute("href","tel:" + tel);
 
 </script>

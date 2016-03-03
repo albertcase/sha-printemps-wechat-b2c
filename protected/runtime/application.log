@@ -9165,3 +9165,63 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/site/taxrefund2
 ---
+2016/03/02 15:55:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /vagrant/sha-printemps-wechat-b2c/protected/controllers/SiteController.php(81): CModule->__get('db')
+#5 [internal function]: SiteController->actionStore('1')
+#6 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#7 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#8 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#12 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#13 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /vagrant/sha-printemps-wechat-b2c/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/site/store/1
+---
+2016/03/02 16:02:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'printemps_b2b'' in /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /vagrant/sha-printemps-wechat-b2c/protected/controllers/SiteController.php(81): CModule->__get('db')
+#5 [internal function]: SiteController->actionStore('1')
+#6 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#7 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#8 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#12 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#13 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /vagrant/sha-printemps-wechat-b2c/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/site/store/1
+---
+2016/03/02 16:02:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'printemps_b2c'' in /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /vagrant/sha-printemps-wechat-b2c/protected/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CModule.php(387): CDbConnection->init()
+#3 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /vagrant/sha-printemps-wechat-b2c/protected/controllers/SiteController.php(81): CModule->__get('db')
+#5 [internal function]: SiteController->actionStore('1')
+#6 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#7 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#8 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CWebApplication.php(282): CController->run('store')
+#12 /vagrant/sha-printemps-wechat-b2c/protected/framework/web/CWebApplication.php(141): CWebApplication->runController('site/store')
+#13 /vagrant/sha-printemps-wechat-b2c/protected/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#14 /vagrant/sha-printemps-wechat-b2c/index.php(19): CApplication->run()
+#15 {main}
+REQUEST_URI=/site/store/1
+---

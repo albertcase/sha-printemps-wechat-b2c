@@ -14,7 +14,7 @@ class ApiController extends Controller
 			case '1':
 				$storename = 'PRINTEMPS HAUSSMANN 奥斯曼旗舰店';
 				break;
-			
+
 			case '2':
 				$storename = 'PRINTEMPS DU LOUVRE 卢浮春天百货';
 				break;
@@ -70,9 +70,9 @@ class ApiController extends Controller
 				$sql = "select * from same_brand where store='".$storename."' order by brandtitle";
 				break;
 		}
-		
+
 		$alpha=array();
-		$other=array();	
+		$other=array();
 		$rs = Yii::app()->db->createCommand($sql)->select()->queryAll();
 		for($i=0;$i<count($rs);$i++){
 			if(in_array($rs[$i]['brandtitle'], $this->_alpha))
@@ -125,6 +125,20 @@ class ApiController extends Controller
 		$command->bindParam(':product',$product,PDO::PARAM_STR);
 		$command->bindParam(':brandname',$brandname,PDO::PARAM_STR);
 		$command->execute();
+		$a = new swiftmail(); //send enmail
+		$data = array(
+			'sex' => $sex,
+			'firstname' => $firstname,
+			'secondname' => $secondname,
+			'ddata' => $ddata,
+			'dtime' => $dtime,
+			'contacttype' => $contacttype,
+			'contact' => $contact,
+			'product' => $product,
+			'brandname' => $brandname,
+		);
+		$a->pushmail($data);
+		$a->send();//send enmail end
 		echo json_encode(array('code' => '1', 'msg' => '提交成功'));
 		Yii::app()->end();
 	}

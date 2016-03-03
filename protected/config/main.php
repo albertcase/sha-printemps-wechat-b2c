@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'',	
+	'name'=>'',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -17,11 +17,12 @@ return array(
 		'application.models.*',
 		'application.components.*',
 		'ext.yii-mail.YiiMailMessage',
+		'ext.mailer.swiftmail',
 	),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		
+
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'aaaaaa',
@@ -47,17 +48,17 @@ return array(
                 'transportType'=>'smtp',
                 'transportOptions'=>array(
                         'host'=>'127.0.0.1',
-                        'username'=>'',
+                        'username'=>'123456',
                         'password'=>'',
-                        'port'=>'25',                       
+                        'port'=>'25',
                 ),
-                'viewPath' => 'application.views.mail',             
+                'viewPath' => 'application.views.mail',
         ),
 		'dbTom' => array(
 				'class' => 'ext.db.dbTom',
 		),
 		// uncomment the following to enable URLs in path-format
-		
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -72,15 +73,15 @@ return array(
 		),
 		*/
 		// uncomment the following to use a MySQL database
-		
+
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=printemps_b2b',
+			'connectionString' => 'mysql:host=localhost;dbname=printemps_wechat_b2c',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => '123456',
 			'charset' => 'utf8',
 		),
-		
+
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
