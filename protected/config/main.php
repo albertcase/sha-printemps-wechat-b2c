@@ -47,7 +47,7 @@ return array(
                 'transportType'=>'smtp',
                 'transportOptions'=>array(
                         'host'=>'127.0.0.1',
-                        'username'=>'',
+                        'username'=>'123456',
                         'password'=>'',
                         'port'=>'25',
                 ),

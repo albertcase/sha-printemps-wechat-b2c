@@ -16,15 +16,14 @@
         <div>
           SEARCH CRITERIA
           <select id="allorders">
-            <option value="name">First name</option>
-            <option value="surname">Family name</option>
-            <option value="title">Title</option>
-            <option value="telphone">Phone No.</option>
-            <option value="email">Email address.</option>
-            <option value="callway">Preferred way to contact</option>
-            <option value="storeid">Store name</option>
-            <option value="sguide">Need Chanese Shopping guide</option>
-            <option value="status">Status</option>
+            <option value="firstname">名字</option>
+            <option value="secondname">姓</option>
+            <option value="sex">称呼</option>
+            <option value="contacttype">希望联系方式</option>
+            <option value="contact">联系号码</option>
+            <option value="product">寻找的产品类型</option>
+            <option value="brandname">寻找的品牌</option>
+            <option value="status">状态</option>
           </select>
           <i class="fa fa-plus-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           SHOW：
@@ -54,7 +53,7 @@
               <th>称呼</th>
               <th>希望联系方式</th>
               <th>联系号码</th>
-              <th>你寻找的产品类型</th>
+              <th>寻找的产品类型</th>
               <th>寻找的品牌</th>
               <th>希望预约日期</th>
               <th>希望预约时间</th>

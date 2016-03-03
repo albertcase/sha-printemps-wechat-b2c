@@ -60,6 +60,55 @@ class database
     return $this->Sqlselectall(trim($sql));
   }
 
+//function regexp search
+
+  public function Reggetpage($numb ,$one ,array $data=array() ,array $dataout=array() , $table,$order = false){
+    return $this->RegsearchData($data ,$dataout ,$table ,$one ,$one*($numb-1) ,$order);
+  }
+
+  public function RegsearchData(array $data=array() ,array $dataout=array(), $table ,$limit = 0 ,$offset = false ,$order = false){
+    $dout = '*';
+    $where = array();
+    $lim = '';
+    $offs = '';
+    $orde ='';
+    if(is_array($dataout) && count($dataout))
+      $dout = implode(',' ,$dataout);
+    if(is_array($data)){
+      foreach($data as $x => $x_val)
+        array_push($where ,$x.' REGEXP "'.$x_val.'"');
+    }
+    if(count($where)>0){
+      $where = ' where '.implode(' and ', $where);
+    }else{
+      $where = '';
+    }
+    if($limit > 0)
+      $lim = ' limit '.$limit;
+    if($order)
+      $orde = ' order by '.$order.' ';
+    if($offset)
+      $offs = ' offset '.$offset.' ';
+    $sql = 'select '.$dout.' from '.$table.$where.$orde.$lim.$offs;
+    return $this->Sqlselectall(trim($sql));
+  }
+
+  public function Reggetcount($table ,array $data=array()){
+    $where = array();
+    if(is_array($data)){
+      foreach($data as $x => $x_val)
+        array_push($where ,$x.' REGEXP "'.$x_val.'"');
+    }
+    if(count($where)>0){
+      $where = ' where '.implode(' and ', $where);
+    }else{
+      $where = '';
+    }
+    $result = $this->Sqlselectall('select count(id) from '.$table.$where);
+    return $result[0]['count(id)'];
+  }
+
+//end regexp search
   public function insertData(array $data=array(), $table){
     $this->sql->createCommand()->insert($table, $data);
     return $this->sql->getLastInsertID();

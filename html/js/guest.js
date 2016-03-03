@@ -99,8 +99,8 @@ var adminlist = {
   },
   buildbrandname: function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="contact"></i>寻找的品牌:</dt>';
-    a += '<dd><input type="text" id="ordercontact"></input></dd>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="brandname"></i>寻找的品牌:</dt>';
+    a += '<dd><input type="text" id="orderbrandname"></input></dd>';
     a += '</dl>';
     return a;
   },
@@ -131,7 +131,7 @@ var adminlist = {
         a += '<th>'+data[i]["brandname"]+'</th>';
         a += '<th>'+data[i]["ddata"]+'</th>';
         a += '<th>'+data[i]["dtime"]+'</th>';
-        if(!data[i]["status"]){
+        if(data[i]["status"] == '1'){
           a += '<th>Processed</th>';
         }else{
           a += '<th><button class="btn-blue logbt">Process</button></th>';
@@ -224,21 +224,9 @@ var adminlist = {
         case 'brandname':
             opt = self.buildbrandname();
             break;
-        case '':
-            opt = self.build();
-            break;
-        case '':
-            opt = self.build();
-            break;
-        case '':
-            opt = self.build();
-            break;
-        case '':
-            opt = self.build();
-            break;
         case 'status':
-          opt = self.buildstatus();
-          break;
+            opt = self.buildstatus();
+            break;
       }
       self.orderlist.push(val);
       $(".dataoption").append(opt);

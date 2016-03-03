@@ -23,6 +23,7 @@ class guestadmin
       array('key' => 'brandname' ,'type'=> 'post' ,'regtype'=> 'text'),
       array('key' => 'numb' ,'type'=> 'post' ,'regtype'=> 'text'),
       array('key' => 'one' ,'type'=> 'post' ,'regtype'=> 'text'),
+      array('key' => 'status' ,'type'=> 'post' ,'regtype'=> 'text'),
     );
     if(!$keys = $this->request->uselykeys($data))
       return '11'; /*data formate error*/
@@ -32,7 +33,8 @@ class guestadmin
     $one = isset($keys['one'])?$keys['one']:'10';
     unset($keys['numb']);
     unset($keys['one']);
-    return $this->sql->getpage($numb ,$one ,$keys ,array(),'same_order' );
+    // return $this->sql->getpage($numb ,$one ,$keys ,array(),'same_order' );
+    return $this->sql->Reggetpage($numb ,$one ,$keys ,array(),'same_order' );
   }
 
   public function comfirmbespk(){
@@ -62,6 +64,6 @@ class guestadmin
       return '11'; /*data formate error*/
     if(!is_array($keys))
       $keys = array();
-    return array('count' => $this->sql->getcount('same_order',$keys));
+    return array('count' => $this->sql->Reggetcount('same_order',$keys));
   }
 }
