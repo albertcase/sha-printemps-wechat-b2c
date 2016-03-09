@@ -78,7 +78,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=printemps_wechat_b2c',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '123456',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 
