@@ -52,7 +52,7 @@
               <th>First Name</th>
               <th>Title</th>
               <th>Preferred way to contact</th>
-              <th>Call Address</th>
+              <th>Call No./Email Address</th>
               <th>Type</th>
               <th>Brand</th>
               <th>Appointment Date</th>

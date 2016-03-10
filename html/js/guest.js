@@ -68,14 +68,14 @@ var adminlist = {
   },
   buildcontact:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="contact"></i>Call Address:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="contact"></i>Call / Address:</dt>';
     a += '<dd><input type="text" id="ordercontact"></input></dd>';
     a += '</dl>';
     return a;
   },
   buildcontacttype:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="contacttype"></i>Preferred way to contact:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="contacttype"></i>Call Way:</dt>';
     a += '<dd>';
     a += '<select id="ordercontacttype">';
     a += '<option value="telphone">Telphone</option>';
