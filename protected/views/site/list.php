@@ -20,7 +20,7 @@
             <option value="secondname">Family Name</option>
             <option value="sex">Title</option>
             <option value="contacttype">Preferred way to contact</option>
-            <option value="contact">Call Address</option>
+            <option value="contact">Call No./Email Address</option>
             <option value="product">Type</option>
             <option value="brandname">Brand</option>
             <option value="status">Status</option>
