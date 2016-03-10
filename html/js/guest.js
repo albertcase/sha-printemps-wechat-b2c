@@ -68,18 +68,18 @@ var adminlist = {
   },
   buildcontact:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="contact"></i>Call Address:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="contact"></i>Call / Address:</dt>';
     a += '<dd><input type="text" id="ordercontact"></input></dd>';
     a += '</dl>';
     return a;
   },
   buildcontacttype:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="contacttype"></i>Preferred way to contact:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="contacttype"></i>Call Way:</dt>';
     a += '<dd>';
     a += '<select id="ordercontacttype">';
-    a += '<option value="电话">Telphone</option>';
-    a += '<option value="邮箱">Email</option>';
+    a += '<option value="telphone">Telphone</option>';
+    a += '<option value="email">Email</option>';
     a += '</select>';
     a += '</dd>';
     a += '</dl>';
@@ -90,12 +90,12 @@ var adminlist = {
     a += '<dt><i class="fa fa-minus-square faleft" opt="product"></i>Type：</dt>';
     a += '<dd>';
     a += '<select id="orderproduct">';
-    a += '<option value="奢侈品与配饰">奢侈品与配饰</option>';
-    a += '<option value="女士时尚">女士时尚</option>';
-    a += '<option value="男士时尚">男士时尚</option>';
-    a += '<option value="美妆与护肤">美妆与护肤</option>';
-    a += '<option value="儿童">儿童</option>';
-    a += '<option value="內衣">內衣</option>';
+    a += '<option value="luxury jewelry & accessories"> luxury jewelry & accessories</option>';
+    a += '<option value="female fashion">female fashion</option>';
+    a += '<option value="male fashion">male fashion</option>';
+    a += '<option value="beauty & skincare">beauty & skincare</option>';
+    a += '<option value="kid">kid</option>';
+    a += '<option value="underwear">underwear</option>';
     a += '</select>';
     a += '</dd>';
     a += '</dl>';
