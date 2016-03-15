@@ -46,13 +46,13 @@
             <dl>
                 <dt>A:</dt>
                 <dd>
-                    法国春天百货奥斯曼旗舰店有6个餐厅及甜品店，为您提供<br />
+                    法国春天百货奥斯曼旗舰店<br />
                     地址: 64, Boulevard Haussmann
                     75009 Paris – France <br />
                     地铁: 3号线，9号线 Havre Caumartin站
                                 RER A Auber站 <br />
                     公交线路: 21,  22,  27, 66, 53, 95, 27 <br />
-                    请<a href="http://printempsb2b.samesamechina.com/site/sitmap" target="_blank">点击此处</a>地理定位。<br />
+                    请<a href="http://printempsb2b.samesamechina.com/site/sitmap" target="_blank">点击此处</a>地理定位。<br /><br />
                     <em>法国春天百货卢浮宫分店</em> <br />
                     地址: 99 rue de Rivoli
                     75001 Paris - France <br />
@@ -85,7 +85,7 @@
                     <p>
                     <em>2.普希金点心店</em><br />
                     普希金点心店是不可错过的莫斯科风味甜点名店，你可以在这里品尝到各式各样、超凡美味的俄式点心小吃。<br />
-                    电话：+1 42 82 43 31 <br />
+                    电话：+33 1 42 82 43 31 <br />
                     春天女士时尚馆，0层
                     </p>
 
@@ -532,6 +532,31 @@
             </dl>
         </div>
 
+        <div class="qNode">
+            <dl class="qtitle">
+                <dt><b>Q:</b></dt>
+                <dd>请问春天百货有自己的独家精品吗?</dd>
+            </dl>
+            <dl>
+                <dt>A:</dt>
+                <dd>
+                    我们的各大品牌合作伙伴，常年为您提供各种专属春天百货的独家精品。关注我们的社交平台，发现各种创意作品吧。
+                </dd>
+            </dl>
+        </div>
+
+        <div class="qNode">
+            <dl class="qtitle">
+                <dt><b>Q:</b></dt>
+                <dd>你们店内有什么特殊活动吗?</dd>
+            </dl>
+            <dl>
+                <dt>A:</dt>
+                <dd>
+                    从潮流派对到新品发布，春天百货不定期在店内举行多样化活动。关注我们的社交平台，及时了解各类资讯实时动态。
+                </dd>
+            </dl>
+        </div>
 
 
     </div>

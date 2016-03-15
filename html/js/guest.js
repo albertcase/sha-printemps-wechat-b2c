@@ -9,6 +9,10 @@ var popbox={
         user: $("#logname").val(),
         password: $("#logpassword").val()
       },
+      error: function(jqXHR, textStatus, errorMsg){
+        html.closepop2();
+        html.tips("Request Error");
+      },
       success:function(data){
         if(data == '14'){
             window.location.href='/site/list/';
@@ -38,25 +42,25 @@ var adminlist = {
   count:0,
   buildfirstname:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="firstname"></i>名：</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="firstname"></i>First Name：</dt>';
     a += '<dd><input type="text" id="orderfirstname"></input></dd>';
     a += '</dl>';
     return a;
   },
   buildsecondname:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="secondname"></i>姓：</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="secondname"></i>Family Name：</dt>';
     a += '<dd><input type="text" id="ordersecondname"></input></dd>';
     a += '</dl>';
     return a;
   },
   buildsex:function(){
     var a='<dl>'
-    a += '<dt><i class="fa fa-minus-square faleft" opt="sex"></i>称呼：</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="sex"></i>Title：</dt>';
     a += '<dd>';
     a +='<select id="ordersex">';
-    a += '<option value="先生">先生</option>';
-    a += '<option value="女士">女士</option>';
+    a += '<option value="先生">Sir</option>';
+    a += '<option value="女士">Ms</option>';
     a += '</select>';
     a += '</dd>';
     a += '</dl>';
@@ -64,18 +68,18 @@ var adminlist = {
   },
   buildcontact:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="contact"></i>联系号码:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="contact"></i>Call / Address:</dt>';
     a += '<dd><input type="text" id="ordercontact"></input></dd>';
     a += '</dl>';
     return a;
   },
   buildcontacttype:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="contacttype"></i>希望联系方式:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="contacttype"></i>Call Way:</dt>';
     a += '<dd>';
     a += '<select id="ordercontacttype">';
-    a += '<option value="电话">电话</option>';
-    a += '<option value="邮箱">邮箱</option>';
+    a += '<option value="telphone">Telphone</option>';
+    a += '<option value="email">Email</option>';
     a += '</select>';
     a += '</dd>';
     a += '</dl>';
@@ -83,15 +87,15 @@ var adminlist = {
   },
   buildproduct:function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="product"></i>产品类型：</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="product"></i>Type：</dt>';
     a += '<dd>';
     a += '<select id="orderproduct">';
-    a += '<option value="奢侈品与配饰">奢侈品与配饰</option>';
-    a += '<option value="女士时尚">女士时尚</option>';
-    a += '<option value="男士时尚">男士时尚</option>';
-    a += '<option value="美妆与护肤">美妆与护肤</option>';
-    a += '<option value="儿童">儿童</option>';
-    a += '<option value="內衣">內衣</option>';
+    a += '<option value="luxury jewelry & accessories"> luxury jewelry & accessories</option>';
+    a += '<option value="female fashion">female fashion</option>';
+    a += '<option value="male fashion">male fashion</option>';
+    a += '<option value="beauty & skincare">beauty & skincare</option>';
+    a += '<option value="kid">kid</option>';
+    a += '<option value="underwear">underwear</option>';
     a += '</select>';
     a += '</dd>';
     a += '</dl>';
@@ -99,14 +103,14 @@ var adminlist = {
   },
   buildbrandname: function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft" opt="brandname"></i>寻找的品牌:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft" opt="brandname"></i>Brand:</dt>';
     a += '<dd><input type="text" id="orderbrandname"></input></dd>';
     a += '</dl>';
     return a;
   },
   buildstatus: function(){
     var a='<dl>';
-    a += '<dt><i class="fa fa-minus-square faleft"  opt="status"></i>状态:</dt>';
+    a += '<dt><i class="fa fa-minus-square faleft"  opt="status"></i>Status:</dt>';
     a += '<dd>';
     a += '<select id="orderstatus">';
     a += '<option value="1">Processed</option>';
@@ -280,6 +284,10 @@ var adminlist = {
       dataType:"json",
       type:"POST",
       data:subdata,
+      error: function(jqXHR, textStatus, errorMsg){
+        html.closepop2();
+        html.tips("Request Error");
+      },
       success:function(data){
         if(data == '4'){
           window.location.reload();
@@ -306,6 +314,10 @@ var adminlist = {
       dataType:"json",
       type:"POST",
       data:{id: sid},
+      error: function(jqXHR, textStatus, errorMsg){
+        html.closepop2();
+        html.tips("Request Error");
+      },
       success:function(data){
         if(data == '4'){
           window.location.reload();
@@ -331,6 +343,10 @@ var adminlist = {
       dataType:"json",
       type:"POST",
       data:subdata,
+      error: function(jqXHR, textStatus, errorMsg){
+        html.closepop2();
+        html.tips("Request Error");
+      },
       success:function(data){
         if(data == '4'){
           window.location.reload();
@@ -354,6 +370,10 @@ var adminlist = {
       url:"/site/logout",
       dataType:"json",
       type:"POST",
+      error: function(jqXHR, textStatus, errorMsg){
+        html.closepop2();
+        html.tips("Request Error");
+      },
       success:function(data){
           window.location.reload();
           return true;

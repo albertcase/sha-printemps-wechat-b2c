@@ -16,14 +16,14 @@
         <div>
           SEARCH CRITERIA
           <select id="allorders">
-            <option value="firstname">名字</option>
-            <option value="secondname">姓</option>
-            <option value="sex">称呼</option>
-            <option value="contacttype">希望联系方式</option>
-            <option value="contact">联系号码</option>
-            <option value="product">寻找的产品类型</option>
-            <option value="brandname">寻找的品牌</option>
-            <option value="status">状态</option>
+            <option value="firstname">First Name</option>
+            <option value="secondname">Family Name</option>
+            <option value="sex">Title</option>
+            <option value="contacttype">Preferred way to contact</option>
+            <option value="contact">Call No./Email Address</option>
+            <option value="product">Type</option>
+            <option value="brandname">Brand</option>
+            <option value="status">Status</option>
           </select>
           <i class="fa fa-plus-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           SHOW：
@@ -47,17 +47,17 @@
         <table border="1"  class="bespeaklist">
           <thead>
             <tr>
-              <th>序号</th>
-              <th>姓</th>
-              <th>名字</th>
-              <th>称呼</th>
-              <th>希望联系方式</th>
-              <th>联系号码</th>
-              <th>寻找的产品类型</th>
-              <th>寻找的品牌</th>
-              <th>希望预约日期</th>
-              <th>希望预约时间</th>
-              <th>状态</th>
+              <th>No.</th>
+              <th>Family Name</th>
+              <th>First Name</th>
+              <th>Title</th>
+              <th>Preferred way to contact</th>
+              <th>Call No./Email Address</th>
+              <th>Type</th>
+              <th>Brand</th>
+              <th>Appointment Date</th>
+              <th>Appointment Time</th>
+              <th>Status</th>
             </tr>
           </thead>
           <tbody>

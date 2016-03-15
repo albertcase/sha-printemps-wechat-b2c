@@ -14,8 +14,8 @@
 				<span>称呼：</span> 
 				<select name="gender">
 					<option>请选择</option>
-					<option>先生</option>
-					<option>女士</option>
+					<option value="mr">先生</option>
+					<option value="miss">女士</option>
 				</select>
 			</li>
 			<li class="fstyle-1">
@@ -28,19 +28,24 @@
 			</li>
 
 			<li class="fstyle-2">
-				<span>希望预约日期：</span> 
-				<input type="date" name="date" value="2011-01-04">
+				<span>希望预约日期：</span>
+                <select name="date" id="date">
+                    <option>请选择</option>
+                </select>
 			</li>
 			<li class="fstyle-2">
-				<span>希望预约时间：</span> 
-				<input type="time" name="hour" value="10:00">
+				<span>希望预约时间：</span>
+				<select name="hour" id="hour">
+                    <option>请选择</option>
+                </select>
+
 			</li>
 			<li class="fstyle-2">
 				<span>希望联系方式：</span> 
 				<select name="contact">
 					<option>请选择</option>
-					<option>电话</option>
-					<option>邮箱</option>
+					<option value="telphone">电话</option>
+					<option value="email">邮箱</option>
 				</select>
 			</li>
 			<li class="fstyle-3">
@@ -49,12 +54,12 @@
 			<li class="fstyle-4">
 				<p>你寻找的产品类型：</p>
 				<span>
-					<label><input type="checkbox" name="chosetype" value="奢侈品与配饰">奢侈品与配饰</label>
-					<label><input type="checkbox" name="chosetype" value="女士时尚">女士时尚</label>
-					<label><input type="checkbox" name="chosetype" value="男士时尚">男士时尚 </label>
-					<label><input type="checkbox" name="chosetype" value="美妆与护肤">美妆与护肤</label>
-					<label><input type="checkbox" name="chosetype" value="儿童">儿童</label>
-					<label><input type="checkbox" name="chosetype" value="內衣">內衣</label>
+					<label><input type="checkbox" name="chosetype" value="luxury jewelry & accessories">奢侈品与配饰</label>
+					<label><input type="checkbox" name="chosetype" value="female fashion">女士时尚</label>
+					<label><input type="checkbox" name="chosetype" value="male fashion">男士时尚 </label>
+					<label><input type="checkbox" name="chosetype" value="beauty & skincare">美妆与护肤</label>
+					<label><input type="checkbox" name="chosetype" value="kid">儿童</label>
+					<label><input type="checkbox" name="chosetype" value="underwear">內衣</label>
 				</span>
 			</li>
 			<li class="fstyle-3">
@@ -72,7 +77,7 @@
 </article>
 <footer class="personal_footer">
 	<div class="con">
-		<a href="javascript:orderForm();">
+		<a href="javascript:;" class="confirmSubmit">
 			<img src="<?php echo Yii::app()->request->baseUrl; ?>/vstyle/imgs/submit_btn.png" width="100%" />
 		</a>
 	</div>
@@ -80,7 +85,37 @@
 </footer>
 
 <script type="text/javascript">
-	
+
+    $(".confirmSubmit").click(function(){
+        if(!$(this).hasClass("disabled")){
+            $(this).addClass("disabled");
+            orderForm();
+        }
+    })
+	function isPhoneNum(value){
+      return /^0|^((\+?86 )|(\(\+86 \)))?(13[0-9]|15[012356789]|18[012356789]|14[57])[0-9]{8}$/.test(value);
+    };
+
+    function isTellNum(value){
+      return /([0-9]{3,4}-)?[0-9]{7,8}/.test(value);
+    };
+
+    function isEmailNum(value){
+        return /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(value);
+    }
+
+    function isPEFun(nType,noNum){
+        if(nType == "telphone"){
+            if(isPhoneNum(noNum) || isTellNum(noNum)){
+                return true;
+            }
+        }else{
+            if(isEmailNum(noNum)){
+                return true;
+            }
+        }
+    }
+
 	function formInterface(_sex, _firstname, _secondname, _ddata, _dtime, _contacttype, _contact, _product, _brandname){
 		$.ajax({
 	        type: "POST",
@@ -100,22 +135,24 @@
 	    }).done(function(data){
 
 	    	if(data.code == 1){
-	    		window.location.href = "/site/congratulation"; 
+	    		window.location.href = "/site/congratulation";
 	    		//alert("提交成功");
 	    	}else{
-	    		alert("很抱歉，提交失败，请刷新之后重新提交");
+	    	    formErrorTips("很抱歉，提交失败，请刷新之后重新提交！");
+	    		//alert("很抱歉，提交失败，请刷新之后重新提交");
 	    	}
-	    
+	        $(".confirmSubmit").removeClass("disabled");
 	    })
 	}
+
 
 
 	function orderForm(){
 		var _gender = $("select[name='gender']").val();
 		var _surname = $("input[name='surname']").val();
 		var _name = $("input[name='name']").val();
-		var _date = $("input[name='date']").val();
-		var _hour = $("input[name='hour']").val();
+		var _date = $("select[name='date']").val();
+		var _hour = $("select[name='hour']").val();
 		var _contact = $("select[name='contact']").val();
 		var _contactVal = $("input[name='contactVal']").val();
 		var _typeArr = [];
@@ -130,17 +167,36 @@
 		_typeArr = _typeArr.join("|");
 
 		if(_gender == "请选择"){
-			alert("请选择称呼！");
+		    formErrorTips("请选择称呼！");
+			$(".confirmSubmit").removeClass("disabled");
 		}else if(_surname == ""){
-			alert("姓不能为空！");
+			//alert("姓不能为空！");
+			formErrorTips("姓不能为空！");
+			$(".confirmSubmit").removeClass("disabled");
 		}else if(_name == ""){
-			alert("名不能为空！");
-		}else if(_contact == "请选择"){
-			alert("请选择联系方式类型！");
-		}else if(_contactVal == ""){
-			alert("请输入您的联系方式！");
+			//alert("名不能为空！");
+			formErrorTips("名不能为空！");
+			$(".confirmSubmit").removeClass("disabled");
+		}else if(_date == "" || _date == "请选择"){
+         	//alert("请选择希望预约日期！");
+         	formErrorTips("请选择希望预约日期！");
+         	$(".confirmSubmit").removeClass("disabled");
+        }else if(_hour == "" || _hour == "请选择"){
+            //alert("请选择希望预约时间！");
+            formErrorTips("请选择希望预约时间！");
+            $(".confirmSubmit").removeClass("disabled");
+        }else if(_contact == "请选择"){
+			//alert("请选择联系方式类型！");
+			formErrorTips("请选择联系方式类型！");
+			$(".confirmSubmit").removeClass("disabled");
+		}else if(!isPEFun(_contact, _contactVal)){
+			//alert("您的联系方式填写有误！");
+			formErrorTips("您的联系方式填写有误！");
+			$(".confirmSubmit").removeClass("disabled");
 		}else if(_typeArr == ""){
-			alert("请选择您寻找的产品类型！");
+			//alert("请选择您寻找的产品类型！");
+			formErrorTips("请选择您寻找的产品类型！");
+			$(".confirmSubmit").removeClass("disabled");
 		}else{
 			
 			formInterface(_gender, _surname, _name, _date, _hour, _contact, _contactVal, _typeArr, _brandVal);
@@ -148,6 +204,129 @@
 		}
 
 	}
+
+
+
+
+function timeSetBox(pn){
+
+      //获取时间段
+      this.minPeriodTime = "10"; //早上10点
+      this.maxPeriodTime = "20"; //晚上20点
+      this.PeriodArr = [];
+      this.PeriodNode = pn;
+      this.timeSpacing = "15";
+
+      this.setDate = function(){
+        this.status = 6;
+      }
+
+      this.setPeriod = function(){
+        for(var i=this.minPeriodTime; i<this.maxPeriodTime; i++){
+        	for(var v=0; v<60/this.timeSpacing; v++){
+                var nv;
+                v*15==0?nv="00":nv = v*15;
+                this.PeriodArr.push("<option>"+i+":"+nv+"</option>");
+        	}
+        }
+      }
+
+      this.setPeriod();
+      this.PeriodArr.push("<option>20:00</option>");
+      this.PeriodNode.append(this.PeriodArr);
+
+
+      //获取日期段
+
+
+}
+
+function ObjectFactory(){
+
+      var obj = {},
+
+      Constructor = Array.prototype.shift.call( arguments );
+
+      obj.__proto__ =  typeof Constructor .prototype === 'number'  ? Object.prototype
+
+      :  Constructor .prototype;
+
+      var ret = Constructor.apply( obj, arguments );
+
+      return typeof ret === 'object' ? ret : obj;
+
+}
+
+ObjectFactory( timeSetBox, $("#hour"));
+//a.doing();
+//console.log(a);
+
+
+
+
+
+
+
+
+var reg = new RegExp("-","g");
+
+function GetDateStr(AddDayCount) {
+    var dd = new Date();
+    dd.setDate(dd.getDate()+AddDayCount);//获取AddDayCount天后的日期
+    var y = dd.getFullYear();
+    var m = dd.getMonth()+1;//获取当前月份的日期
+    var d = dd.getDate();
+    return y+"/"+m+"/"+d;
+}
+
+function getDays(strDateStart,strDateEnd){
+   var strSeparator = "/"; //日期分隔符
+   var oDate1;
+   var oDate2;
+   var iDays;
+   oDate1= strDateStart.split(strSeparator);
+   oDate2= strDateEnd.split(strSeparator);
+   var strDateS = new Date(oDate1[0], oDate1[1]-1, oDate1[2]);
+   var strDateE = new Date(oDate2[0], oDate2[1]-1, oDate2[2]);
+   iDays = parseInt(Math.abs(strDateS - strDateE ) / 1000 / 60 / 60 /24)//把相差的毫秒数转换为天数
+   return iDays ;
+}
+
+var laveDays = 150;//getDays(GetDateStr(1),"2016/4/21");
+
+for(var i=0; i<=laveDays; i++){
+    var date1 = new Date(GetDateStr(0).replace(reg,"/"));
+    var date2 = new Date(date1);
+
+    date2.setDate(date1.getDate()+i);
+    var times = date2.getFullYear()+"/"+(date2.getMonth()+1)+"/"+date2.getDate();
+    $("#date").append("<option>"+times+"</option>");
+    //console.log(times);
+}
+
+var alertInt;
+function formErrorTips(alertNodeContext){
+    clearTimeout(alertInt);
+    if($(".alertNode").length > 0){
+        $(".alertNode").html(alertNodeContext);
+    }else{
+        var alertNode = document.createElement("div");
+            alertNode.setAttribute("class","alertNode");
+            alertNode.innerHTML = alertNodeContext;
+            document.body.appendChild(alertNode);
+
+    }
+    alertInt = setTimeout(function(){
+        $(".alertNode").remove();
+    },3000);
+
+
+}
+
+
+
+
+
 
 </script>
 
