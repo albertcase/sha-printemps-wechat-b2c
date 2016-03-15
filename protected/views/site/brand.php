@@ -83,7 +83,7 @@
     				break;
 
     			case '5':
-    				categorieVal = 'CHILDREN 儿童时尚';
+    				categorieVal = 'CHILDREN & HOME 儿童家居';
     				break;
 
     			case '6':
