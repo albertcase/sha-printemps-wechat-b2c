@@ -46,7 +46,7 @@ class ApiController extends Controller
 				break;
 
 			case '5':
-				$categorie = 'CHILDREN 儿童时尚';
+				$categorie = 'CHILDREN & HOME 儿童家居';
 				$sql = "select * from same_brand where categorie='".$categorie."' order by brandtitle";
 				break;
 
