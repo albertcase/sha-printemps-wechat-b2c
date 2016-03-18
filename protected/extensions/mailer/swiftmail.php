@@ -9,7 +9,7 @@
     private $user = 'printemps@samesamechina.com';
     private $password = 'Same2016';
     private $from = array('printemps@samesamechina.com' => 'Printemps');
-    private $to = array('dirk.wang@samesamechina.com'=>'DIRC');
+    private $to = array('dirk.wang@samesamechina.com'=>'DIRC', 'personalshopper@printemps.fr' => 'Personalshopper');
     private $mailer;
     private $mails = array();
     private $SwiftMailer;
