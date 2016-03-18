@@ -48,15 +48,15 @@
       '<html>'.
       ' <head></head>'.
       ' <body>'.
-      '<span style="color:#090">名字:</span>&nbsp;'.$data['firstname'].'<br>'.
-      '<span style="color:#090">姓:</span>&nbsp;'.$data['secondname'].'<br>'.
-      '<span style="color:#090">称呼:</span>&nbsp;'.$data['sex'].'<br>'.
-      '<span style="color:#090">希望联系方式:</span>&nbsp;'.$data['contacttype'].'<br>'.
-      '<span style="color:#090">联系号码:</span>&nbsp;'.$data['contact'].'<br>'.
-      '<span style="color:#090">寻找的产品类型:</span>&nbsp;'.$data['product'].'<br>'.
-      '<span style="color:#090">寻找的品牌:</span>&nbsp;'.$data['brandname'].'<br>'.
-      '<span style="color:#090">希望预约日期:</span>&nbsp;'.$data['ddata'].'<br>'.
-      '<span style="color:#090">希望预约时间:</span>&nbsp;'.$data['dtime'].'<br>'.
+      '<span style="color:#090">First Name:</span>&nbsp;'.$data['firstname'].'<br>'.
+      '<span style="color:#090">Family Name:</span>&nbsp;'.$data['secondname'].'<br>'.
+      '<span style="color:#090">Title:</span>&nbsp;'.$data['sex'].'<br>'.
+      '<span style="color:#090">Preferred way to contact:</span>&nbsp;'.$data['contacttype'].'<br>'.
+      '<span style="color:#090">Call No./Email Address:</span>&nbsp;'.$data['contact'].'<br>'.
+      '<span style="color:#090">Type:</span>&nbsp;'.$data['product'].'<br>'.
+      '<span style="color:#090">Brand:</span>&nbsp;'.$data['brandname'].'<br>'.
+      '<span style="color:#090">Appointment Date:</span>&nbsp;'.$data['ddata'].'<br>'.
+      '<span style="color:#090">Appointment Time:</span>&nbsp;'.$data['dtime'].'<br>'.
       ' </body>'.
       '</html>';
     return $body;
