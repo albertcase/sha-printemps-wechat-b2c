@@ -53,7 +53,7 @@
       '<span style="color:#090">Title:</span>&nbsp;'.$data['sex'].'<br>'.
       '<span style="color:#090">Preferred way to contact:</span>&nbsp;'.$data['contacttype'].'<br>'.
       '<span style="color:#090">Call No./Email Address:</span>&nbsp;'.$data['contact'].'<br>'.
-      '<span style="color:#090">Type:</span>&nbsp;'.str_replace('|', ' ', $data['product']).'<br>'.
+      '<span style="color:#090">Type:</span>&nbsp;'.str_replace('|', ' | ', $data['product']).'<br>'.
       '<span style="color:#090">Brand:</span>&nbsp;'.$data['brandname'].'<br>'.
       '<span style="color:#090">Appointment Date:</span>&nbsp;'.$data['ddata'].'<br>'.
       '<span style="color:#090">Appointment Time:</span>&nbsp;'.$data['dtime'].'<br>'.
