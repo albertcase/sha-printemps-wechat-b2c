@@ -8,7 +8,7 @@
     private $port = '25';
     private $user = 'printemps@samesamechina.com';
     private $password = 'Same2016';
-    private $from = array('printemps@samesamechina.com' => 'Printemps');
+    private $from = array('printemps@samesamechina.com' => 'WECHAT Printemps');
     private $to = array('dirk.wang@samesamechina.com'=>'DIRC', 'echarlet@printemps.fr' => 'Echarlet');
     private $mailer;
     private $mails = array();
