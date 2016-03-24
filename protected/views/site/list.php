@@ -18,12 +18,9 @@
           <select id="allorders">
             <option value="firstname">First Name</option>
             <option value="secondname">Family Name</option>
-            <option value="sex">Title</option>
-            <option value="contacttype">Preferred way to contact</option>
-            <option value="contact">Call No./Email Address</option>
-            <option value="product">Type</option>
-            <option value="brandname">Brand</option>
-            <option value="status">Status</option>
+            <option value="cardno">Tour Guide No.</option>
+            <option value="bak">Region</option>
+            <option value="openidd">Logined</option>
           </select>
           <i class="fa fa-plus-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           SHOW：
@@ -48,16 +45,12 @@
           <thead>
             <tr>
               <th>No.</th>
-              <th>Family Name</th>
               <th>First Name</th>
-              <th>Title</th>
-              <th>Preferred way to contact</th>
-              <th>Call No./Email Address</th>
-              <th>Type</th>
-              <th>Brand</th>
-              <th>Appointment Date</th>
-              <th>Appointment Time</th>
-              <th>Status</th>
+              <th>Family Name</th>
+              <th>Tour Guide No.</th>
+              <th>Region</th>
+              <th>Logined</th>
+              <th>LoginDate</th>
             </tr>
           </thead>
           <tbody>
