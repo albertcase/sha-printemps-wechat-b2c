@@ -59,8 +59,8 @@ var adminlist = {
     a += '<dt><i class="fa fa-minus-square faleft" opt="sex"></i>Title：</dt>';
     a += '<dd>';
     a +='<select id="ordersex">';
-    a += '<option value="先生">Sir</option>';
-    a += '<option value="女士">Ms</option>';
+    a += '<option value="mr">Mr</option>';
+    a += '<option value="miss">Miss</option>';
     a += '</select>';
     a += '</dd>';
     a += '</dl>';

@@ -8,8 +8,8 @@
     private $port = '25';
     private $user = 'printemps@samesamechina.com';
     private $password = 'Same2016';
-    private $from = array('printemps@samesamechina.com' => 'Printemps');
-    private $to = array('dirk.wang@samesamechina.com'=>'DIRC', 'personalshopper@printemps.fr' => 'Personalshopper');
+    private $from = array('printemps@samesamechina.com' => 'WECHAT Printemps');
+    private $to = array('dirk.wang@samesamechina.com'=>'DIRC', 'echarlet@printemps.fr' => 'Echarlet');
     private $mailer;
     private $mails = array();
     private $SwiftMailer;
@@ -30,7 +30,7 @@
       'from' => $this->from,
       'to' => $this->to,
       'body' => $this->body($data),
-      'subject' => 'An appointment from :'.$data['firstname'],
+      'subject' => 'Demande de RDV PSP via WECHAT Printemps',
     );
     return $datain;
    }
@@ -53,7 +53,7 @@
       '<span style="color:#090">Title:</span>&nbsp;'.$data['sex'].'<br>'.
       '<span style="color:#090">Preferred way to contact:</span>&nbsp;'.$data['contacttype'].'<br>'.
       '<span style="color:#090">Call No./Email Address:</span>&nbsp;'.$data['contact'].'<br>'.
-      '<span style="color:#090">Type:</span>&nbsp;'.$data['product'].'<br>'.
+      '<span style="color:#090">Type:</span>&nbsp;'.str_replace('|', ' | ', $data['product']).'<br>'.
       '<span style="color:#090">Brand:</span>&nbsp;'.$data['brandname'].'<br>'.
       '<span style="color:#090">Appointment Date:</span>&nbsp;'.$data['ddata'].'<br>'.
       '<span style="color:#090">Appointment Time:</span>&nbsp;'.$data['dtime'].'<br>'.
