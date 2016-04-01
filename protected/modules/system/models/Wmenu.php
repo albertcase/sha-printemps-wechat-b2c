@@ -190,7 +190,7 @@ class Wmenu{
 
 	public function getPmenuForChild()
 	{
-		$sql="SELECT id,name FROM same_wmenu where id not in(select distinct(pid) from same_wmenu)";
+		$sql="SELECT id,concat(name,'-',id) as name FROM same_wmenu where id not in(select distinct(pid) from same_wmenu)";
 		$rs=$this->_db->createCommand($sql)->select()->queryAll();
 		$ary = array(array('id'=>0,'name'=>'无'));
 		for($i=0;$i<count($rs);$i++){
