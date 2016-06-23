@@ -667,6 +667,11 @@ footer.personal_footer .con a img{
 	display: inline-block;
 }
 
+.loginbg{
+	width: 100%;
+	display: inline-block;
+}
+
 
 
 /* 6plus */
@@ -698,6 +703,12 @@ footer.personal_footer .con a img{
 		text-align: left;
 		color: #111010;
 	}
+
+	.loginbg{
+		width: 104%;
+		margin: 0 0 0 -2%;
+		display: inline-block;
+	}
 }
 
 /* 6 */
@@ -727,6 +738,12 @@ footer.personal_footer .con a img{
 		display: inline-block;
 		text-align: left;
 		color: #111010;
+	}
+
+	.loginbg{
+		width: 104%;
+		margin: 0 0 0 -2%;
+		display: inline-block;
 	}
 
 }
