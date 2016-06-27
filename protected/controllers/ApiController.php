@@ -91,7 +91,7 @@ class ApiController extends Controller
 		$cardnum = isset($_POST['cardnum']) ? $_POST['cardnum'] : $tag = true;
 		$name = isset($_POST['name']) ? $_POST['name'] : $tag = true;
 		if ($tag) {
-			echo json_encode(array('code' => '2', 'msg' => '验证失败'));
+			echo json_encode(array('code' => '2', 'msg' => '很抱歉，登录失败。请重新输入'));
 			Yii::app()->end();
 		}
 		echo json_encode(array('code' => '1', 'msg' => '验证通过'));
