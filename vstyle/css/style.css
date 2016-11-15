@@ -563,6 +563,19 @@ footer.personal_footer .con a img{
 	display: inline-block;
 }
 
+.storeInfo p{
+	width: 100%;
+}
+
+.storeInfo p em{
+	float: left;
+	display: inline-block;
+}
+
+.storeInfo p span{
+	float: right;
+	display: inline-block;
+}
 
 
 /* question */
