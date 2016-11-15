@@ -568,12 +568,14 @@ footer.personal_footer .con a img{
 }
 
 .storeInfo p em{
+	width: 26%;
 	float: left;
 	display: inline-block;
 }
 
 .storeInfo p span{
-	float: right;
+	width: 73%;
+	float: left;
 	display: inline-block;
 }
 
